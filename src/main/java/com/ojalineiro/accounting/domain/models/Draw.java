@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class Draw {
     private Long id;
     private String description;
-    private HashMap<Integer,Person> drawInfo;
+    private HashMap<Integer,Member> drawInfo;
     private LocalDateTime createdAt;
     private int winner;
 }
